@@ -1,0 +1,59 @@
+baseURL: "https://XmrSigner.github.io/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "XMR Signer"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "XMR Signer"
+  description: "Protect you Moneros by offline signing theme from a stateless device."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "images/logo.png"
+
+  favicons:
+    themeColor: "#FF6600"
+    backgroundColor: "#4C4C4C"
+    faviconColor: "#000000"
+
+  social:
+    x: "https://x.com/XmrSigner"
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How it works"
+      url: "/#"
+      weight: 2
+
+    - name: "Documentations"
+      url: "/docs/"
+      weight: 3
+
+  buttons:
+    - name: "Build"
+      url: "/build"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+    - name: "Download"
+      url: "/download"
+      weight: 6
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+taxonomies:
+  series: "series"
+  tags: "tags"

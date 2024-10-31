@@ -1,0 +1,16 @@
+enabled: true
+id: "hero"
+
+content:
+  title: "XMR Signer"
+  text: |
+    Sign you Monero transactions offline with the stateless DIY signer,
+    with components from the shelf on the go.
+  buttonPrimary:
+    label: "Wiki"
+    url: "https://github.com/XmrSigner/xmrsigner/wiki"
+
+  buttonSecondary:
+    label: "Let's talk"
+    url: "https://github.com/XmrSigner/xmrsigner/discussions"
+
